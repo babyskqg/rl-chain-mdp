@@ -1,12 +1,12 @@
 
 # configs/chain_regret.yaml
 # Reproduce Fig. 8: regret curves for N in {5,10,30,50}
-episodes: 500000
+episodes: 50000
 #seeds: [0,1,2,3,4,5,6,7,8,9]   # ten seeds as in the paper
 seeds: [1]
 #seeds: [0]
 #Ns: [5, 10, 30, 50]
-Ns: [2,3,4,5]
+Ns: [3,4,5]
 #Ns: [3]
 #algorithms: ["PSRL", "UCBVI-BF", "UCBVI-CH", "Q-Learning"]
 algorithms: ["PSRL", "UCBVI-BF", "UCBVI-CH"]
