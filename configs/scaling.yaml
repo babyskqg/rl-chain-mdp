@@ -9,7 +9,7 @@ seeds: [1]
 Ns: [3,4,5]
 #Ns: [3]
 #algorithms: ["PSRL", "UCBVI-BF", "UCBVI-CH", "Q-Learning"]
-algorithms: ["PSRL", "UCBVI-BF", "UCBVI-CH"]
+algorithms: ["UCBVI-CH"]
 ucbvi:
   delta: 1e-6
 #q_learning:
